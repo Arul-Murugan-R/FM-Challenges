@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #ff00a4, #4e2545);
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+  }
+  .fa-ellipsis-v {
+    float: right;
+  }
+  .fa-ellipsis-v,.fa-angle-down{
+      height:30px;
+  }
+  .app {
+    color: white;
+    text-align: center;
+    height:100hv;
+  }
+  img{
+      width:200px;
+      height:200px;
+  }
+  
+  .fa {
+    display: inline;
+  }
+  
+  .span-class p {
+    display: inline;
+  }
+  
+  .fa-heart {
+    float: right;
+  }
+  .player {
+    padding: 40px;
+  }
+  
+  .slider {
+    background: white;
+    width: 900px;
+  }
+  .fa-angle-down {
+    float: left;
+  }
+  .fa:hover{
+    color:#50d890;
+    cursor:pointer;
+    transition-duration: 0.8;
+}
+.div-class{
+    text-align: left;
+    margin-left:200px;
+}
+.fa-play-circle{
+    font-size:30px;
+    transform:scale(2.5);
+    transition-duration: 0.8s;
+}
+.fa-play-circle:hover{
+    transform:scale(3);
+}
+.fa-heart{
+    transition-duration: 0.8s;
+}
+.fa-heart:hover{
+    transform:rotateY(-180deg);
+}
+  .icon {
+    padding: 1rem 2rem;
+  }
+  

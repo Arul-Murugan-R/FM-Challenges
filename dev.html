@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./dev.css" /> -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    
+    <style>
+        body {
+            font-family: sans-serif;
+            background: linear-gradient(to bottom, #ff00a4, #4e2545);
+            background-repeat: no-repeat;
+            height: 100%;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+          }
+          .fa-ellipsis-v {
+            float: right;
+          }
+          .fa-ellipsis-v,.fa-angle-down{
+              height:30px;
+          }
+          .app {
+            color: white;
+            text-align: center;
+            height:100hv;
+          }
+          img{
+              width:200px;
+              height:200px;
+          }
+          
+          .fa {
+            display: inline;
+          }
+          
+          .span-class p {
+            display: inline;
+          }
+          
+          .fa-heart {
+            float: right;
+          }
+          .player {
+            padding: 40px;
+          }
+          
+          .slider {
+            background: white;
+            width: 900px;
+          }
+          .fa-angle-down {
+            float: left;
+          }
+          .fa:hover{
+            color:#50d890;
+            cursor:pointer;
+            transition-duration: 0.8;
+        }
+        .div-class{
+            text-align: left;
+            margin-left:200px;
+        }
+        .fa-play-circle{
+            font-size:30px;
+            transform:scale(2.5);
+            transition-duration: 0.8s;
+        }
+        .fa-play-circle:hover{
+            transform:scale(3);
+        }
+        .fa-heart{
+            transition-duration: 0.8s;
+        }
+        .fa-heart:hover{
+            transform:rotateY(-180deg);
+        }
+          .icon {
+            padding: 1rem 2rem;
+          }
+          
+    </style>
+  </head>
+
+  <body>
+    <i class="fa fa-ellipsis-v"></i>
+    <i class="fa fa-angle-down"></i><br><br>
+    <div id="app">
+      
+      <h3 class="title">PLAYING FROM PLAYLIST</h3>
+      <h4>Dreamland</h4><br>
+      <img src="https://i.scdn.co/image/ab67616d0000b2739e495fb707973f3390850eea" alt="hello"/><br>
+      <div class="player">
+        <h2 class="div-class">Heat Waves</h2>
+        <i class="fa fa-heart fav"></i>
+        <div class="div-class"><p>Glass Animals</p></div><br>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
+        </div><br><br>
+        <div>
+          <i class="fa fa-step-backward icon"></i>
+          <i class="fa fa-play-circle icon"></i>
+          <i class="fa fa-step-forward icon"></i>
+        </div><br>
+      </div><br>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
